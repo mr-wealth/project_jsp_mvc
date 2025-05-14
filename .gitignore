@@ -1,18 +1,31 @@
-# NetBeans
+# NetBeans specific files
 nbproject/private/
 build/
 dist/
+nbbuild/
+nbdist/
+.nb-gradle/
 *.class
 
-# OS files
+# Maven target directory (if you use Maven)
+target/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Tomcat/IDEA/VSCode
+# IDE files (optional, if you want to ignore)
 *.iml
 .idea/
 .vscode/
-out/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Others
+*.war
+*.ear
